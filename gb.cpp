@@ -4,6 +4,9 @@
 
 #include "gb.h"
 
+using namespace std;
+using namespace canSum;
+
 void naive_test(benchmark::State &state) {
     long long target_sum = state.range(0);
     long long size = state.range(1);

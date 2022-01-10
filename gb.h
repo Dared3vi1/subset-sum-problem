@@ -6,6 +6,7 @@
 #define SUBSET_SUM_GB_H
 
 #include "./includes.h"
+#include "./cansum.h"
 
 void naive_test(benchmark::State &state);
 
